@@ -1,0 +1,20 @@
+# Core ML & Data
+pandas
+pyarrow                   # Pour la sauvegarde en Parquet (plus rapide que CSV)
+scikit-learn
+numpy
+tensorflow                # Ou 'torch' si vous préférez PyTorch
+
+# NLP & Transformers
+transformers
+datasets                  # Utile pour charger et manipuler les données HF
+nltk                      # Pour le preprocessing (stopwords, lemmatization)
+
+# Attaques & Robustesse
+textattack                # La bibliothèque de référence pour les attaques et défenses
+
+# Utilitaires
+joblib                    # Pour sauvegarder les modèles sklearn (mieux que pickle)
+tqdm                      # Barres de progression
+python-dotenv             # Gestion des variables d'environnement
+argparse                  # Déjà inclus dans Python
